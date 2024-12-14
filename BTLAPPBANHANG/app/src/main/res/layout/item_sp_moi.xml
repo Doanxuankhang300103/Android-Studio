@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginLeft="6dp"
+    android:elevation="8dp"
+    android:layout_width="180dp"
+    android:layout_height="200dp">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:src="@drawable/newic"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="top|right"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/itemsp_image"
+                android:layout_marginRight="30dp"
+                android:src="@drawable/folderic3"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"/>
+            <TextView
+                android:id="@+id/itemsp_tensp"
+                android:text="Điện thoại đây"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:layout_width="match_parent"
+                android:layout_height="26dp"
+                android:gravity="center"/>
+            <TextView
+                android:layout_marginTop="2dp"
+                android:id="@+id/itemsp_giasp"
+                android:text="Giá:35100000VNĐ"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:gravity="center"
+                android:textColor="@android:color/holo_red_light"
+                android:layout_width="match_parent"
+                android:layout_height="26dp"/>
+        </LinearLayout>
+
+    </FrameLayout>
+
+</androidx.cardview.widget.CardView>

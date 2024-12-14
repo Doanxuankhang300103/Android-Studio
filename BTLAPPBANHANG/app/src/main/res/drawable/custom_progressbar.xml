@@ -1,0 +1,16 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/background">
+        <shape android:shape="rectangle">
+            <solid android:color="#E0E0E0" /> <!-- Màu nền -->
+            <corners android:radius="8dp" /> <!-- Bo góc -->
+        </shape>
+    </item>
+    <item android:id="@+id/progress">
+        <clip>
+            <shape android:shape="rectangle">
+                <solid android:color="#F64639" /> <!-- Màu progress -->
+                <corners android:radius="8dp" /> <!-- Bo góc -->
+            </shape>
+        </clip>
+    </item>
+</layer-list>

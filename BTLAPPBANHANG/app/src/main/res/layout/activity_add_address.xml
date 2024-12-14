@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E6E6E6"
+    tools:context=".Activity.AddAddressActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#FFFFFF"
+        android:layout_alignParentTop="true"
+        app:title="Địa chỉ mới"
+        app:titleTextColor="#000000" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:padding="8dp"
+            android:text="Liên hệ"/>
+        <EditText
+            android:id="@+id/edtHoVaTen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:background="@color/white"
+            android:padding="8dp"
+            android:textSize="18sp"
+            android:hint="Họ và tên"/>
+        <EditText
+            android:id="@+id/edtSoDienThoai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:maxLength="10"
+            android:background="@color/white"
+            android:padding="8dp"
+            android:textSize="18sp"
+            android:hint="Số điện thoại"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:padding="8dp"
+            android:text="Địa chỉ"/>
+        <EditText
+            android:id="@+id/edtTinh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:drawableRight="@drawable/arrow_right_24"
+            android:padding="8dp"
+            android:textSize="18sp"
+            android:cursorVisible="false"
+            android:focusable="false"
+            android:hint="Tỉnh/Thành phố"/>
+        <EditText
+            android:id="@+id/edtHuyen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:drawableRight="@drawable/arrow_right_24"
+            android:padding="8dp"
+            android:textSize="18sp"
+            android:cursorVisible="false"
+            android:focusable="false"
+            android:hint="Quận/Huyện"/>
+        <EditText
+            android:id="@+id/edtXa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:drawableRight="@drawable/arrow_right_24"
+            android:padding="8dp"
+            android:textSize="18sp"
+            android:cursorVisible="false"
+            android:focusable="false"
+            android:hint="Phường/Xã"/>
+        <EditText
+            android:id="@+id/edtAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:maxLines="1"
+            android:padding="8dp"
+            android:textSize="18sp"
+            android:hint="Tên đường, Số nhà"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnHoanThanh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="16dp"
+        android:background="@drawable/bgr_btn_login"
+        android:layout_marginHorizontal="8dp"
+        android:text="HOÀN THÀNH"/>
+</LinearLayout>

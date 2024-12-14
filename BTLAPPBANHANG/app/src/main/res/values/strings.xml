@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">BTL - APPBANHANG</string>
+    <!-- res/values/strings.xml -->
+    <string-array name="payment_methods">
+        <item>Cash</item>
+        <item>Credit Card</item>
+        <item>PayPal</item>
+        <item>Bank Transfer</item>
+    </string-array>
+
+    <string-array name="loai_sp">
+        <item>Chọn loại sản phẩm</item>
+        <item>Máy tính bảng</item>
+        <item>Điện thoại</item>
+    </string-array>
+
+</resources>

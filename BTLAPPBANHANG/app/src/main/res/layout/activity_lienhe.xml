@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarlh"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#80D120"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="Liên hệ"
+        app:titleTextAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:titleTextColor="@color/white" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact của mình"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:paddingBottom="16dp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email: xkmobile@gmail.com"
+        android:textSize="18sp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/tvPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Số điện thoại: +84 363186833"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:paddingTop="8dp" />
+
+    <TextView
+        android:id="@+id/tvFacebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Facebook: https://www.facebook.com/xuankhangmobi"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:paddingTop="8dp" />
+
+    <Button
+        android:id="@+id/btnFacebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Truy cập Facebook"
+        android:background="@drawable/bordered_button"
+        android:drawablePadding="8dp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="16dp"
+        android:drawableLeft="@drawable/fb" />
+
+    <Button
+        android:id="@+id/btnYoutube"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Truy cập YouTube"
+        android:background="@drawable/bordered_button"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="8dp"
+        android:drawableLeft="@drawable/yt" />
+
+    <Button
+        android:id="@+id/btnEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gửi Email"
+        android:background="@drawable/bordered_button"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="8dp"
+        android:drawableLeft="@drawable/mail" />
+
+    <Button
+        android:id="@+id/btnCall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gọi Điện Thoại"
+        android:background="@drawable/bordered_button"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="8dp"
+        android:drawableLeft="@drawable/phone" />
+
+</LinearLayout>
